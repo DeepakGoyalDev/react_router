@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff7ed;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+  align-items: center;
+}
+
+.header-box > a {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.header-box > nav > a {
+  margin-left: 50px;
+  color: #4d4d4d;
+  font-weight: 500;
+}
+
+.header-box > nav > a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer-box {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+/* Home */
+.home-box {
+  background-image: url("./assets/images/home.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding: 80px 100px;
+  color: white;
+}
+.home-box > h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 100px;
+}
+.home-box > p {
+  line-height: 24px;
+}
+
+.home-box a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff8c38;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 80px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  margin-top: 100px;
+}
+
+.home-box > a:hover {
+  transform: translate(1px, 1px);
+}
+
+/* About */
+.about-content-box {
+  padding: 40px 100px;
+}
+
+.about-content-box h1 {
+  font-size: 2.25rem;
+}
+
+.about-content-box p {
+  margin-top: 30px;
+}
+
+.highlight-box {
+  background-color: #ffcc8d;
+  border-radius: 5px;
+  padding: 32px 37px;
+  margin-top: 40px;
+}
+
+.highlight-box a {
+  display: inline-block;
+  color: white;
+  background-color: #000000;
+  margin-top: 30px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.highlight-box a:hover {
+  transform: translate(2px, 2px);
+}
+
+/* Host */
+.host-header {
+  padding: 25px 100px;
+  font-size: 16px;
+}
+
+.host-header a {
+  margin-right: 30px;
+  color: #4d4d4d;
+}
+
+.host-header a:hover {
+  color: #000000;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.host-vans-details {
+  padding: 20px 100px;
+}
+
+.host-vans-details > a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.host-vans-details-box {
+  padding: 40px 20px;
+  margin: 20px 0px;
+  background-color: white;
+}
+
+.host-vans-details-box > nav {
+  margin-bottom: 20px;
+}
+.host-vans-details-box > nav > a {
+  font-size: 16px;
+  margin-right: 20px;
+  color: #252525;
+}
+
+.host-vans-details-box > nav > a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* vans */
+.vans-list {
+  padding: 20px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vans-list-item {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+}
